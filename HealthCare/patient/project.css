@@ -1,0 +1,47 @@
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.card,img {
+            margin-left: auto;
+            margin-right: auto;
+ }
+#grad{
+    background: radial-gradient(circle at 10% 20%, rgb(149, 219, 254) 10%, rgb(7, 134, 197) 90.1%);
+    /* background-image: linear-gradient(to bottom right,darkcyan ,lightblue); */
+    /* background-image: linear-gradient(coral,lightcoral,bisque); */
+}
+html{
+    scroll-behavior: smooth;
+    }
+.fa-cog{
+        color: white;
+}
+nav{
+    border-bottom: 1px solid cadetblue ;
+    position: fixed;
+}
+#radial-text-gradient {
+    background: radial-gradient(circle, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.galleryImg {
+    height: 45px;
+    width: 45px;
+    animation: move .8s infinite ease-in-out;
+}
+
+@keyframes move {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1.2) rotate(0.1deg);
+
+    }
+
+}
